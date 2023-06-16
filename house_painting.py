@@ -18,6 +18,6 @@ print(f"{green_pain:.2f}")
 
 rectangle = 2 * (x * y)
 triangle = 2 * (x * h / 2)
-total_pokriv = rectangle + triangle
-red_pain = total_pokriv / 4.3
+total_roof = rectangle + triangle
+red_pain = total_roof / 4.3
 print(f"{red_pain:.2f}")
