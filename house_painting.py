@@ -16,8 +16,8 @@ print(f"{green_pain:.2f}")
 
 #Roof
 
-pravoagalnik = 2 * (x * y)
+rectangle = 2 * (x * y)
 triagalnik = 2 * (x * h / 2)
-total_pokriv = pravoagalnik + triagalnik
+total_pokriv = rectangle + triagalnik
 red_pain = total_pokriv / 4.3
 print(f"{red_pain:.2f}")
