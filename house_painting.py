@@ -5,12 +5,12 @@ h = float(input())
 #steni
 side_wall = x * y
 window = 1.5 * 1.5
-strani = 2 * side_wall -2 * window
+side = 2 * side_wall -2 * window
 zadna_strana = x * x
 vhod = 1.2 * 2
 predna_zadna = 2 * zadna_strana - vhod
 
-total_osnova = strani + predna_zadna
+total_osnova = side + predna_zadna
 green_pain = total_osnova / 3.4
 print(f"{green_pain:.2f}")
 
