@@ -8,9 +8,9 @@ window = 1.5 * 1.5
 side = 2 * side_wall -2 * window
 back_side = x * x
 entrance = 1.2 * 2
-predna_zadna = 2 * back_side - entrance
+front_and_back_wall = 2 * back_side - entrance
 
-total_osnova = side + predna_zadna
+total_osnova = side + front_and_back_wall
 green_pain = total_osnova / 3.4
 print(f"{green_pain:.2f}")
 
