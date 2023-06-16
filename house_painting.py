@@ -4,8 +4,8 @@ h = float(input())
 
 #steni
 side_wall = x * y
-prozorec = 1.5 * 1.5
-strani = 2 * side_wall -2 * prozorec
+window = 1.5 * 1.5
+strani = 2 * side_wall -2 * window
 zadna_strana = x * x
 vhod = 1.2 * 2
 predna_zadna = 2 * zadna_strana - vhod
