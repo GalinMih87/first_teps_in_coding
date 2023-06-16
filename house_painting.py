@@ -2,7 +2,7 @@ x = float(input())
 y = float(input())
 h = float(input())
 
-#steni
+#Wall
 side_wall = x * y
 window = 1.5 * 1.5
 side = 2 * side_wall -2 * window
@@ -14,7 +14,7 @@ total_basics = side + front_and_back_wall
 green_pain = total_basics / 3.4
 print(f"{green_pain:.2f}")
 
-#pokriv
+#Roof
 
 pravoagalnik = 2 * (x * y)
 triagalnik = 2 * (x * h / 2)
