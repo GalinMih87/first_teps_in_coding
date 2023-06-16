@@ -10,8 +10,8 @@ back_side = x * x
 entrance = 1.2 * 2
 front_and_back_wall = 2 * back_side - entrance
 
-total_osnova = side + front_and_back_wall
-green_pain = total_osnova / 3.4
+total_basics = side + front_and_back_wall
+green_pain = total_basics / 3.4
 print(f"{green_pain:.2f}")
 
 #pokriv
