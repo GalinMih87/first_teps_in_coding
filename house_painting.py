@@ -12,7 +12,7 @@ front_and_back_wall = 2 * back_side - entrance
 
 total_basics = side + front_and_back_wall
 green_pain = total_basics / 3.4
-print(f"{green_pain:.2f}")
+print(f"Needed liters of green paint:{green_pain:.2f}")
 
 #Roof
 
@@ -20,4 +20,4 @@ rectangle = 2 * (x * y)
 triangle = 2 * (x * h / 2)
 total_roof = rectangle + triangle
 red_pain = total_roof / 4.3
-print(f"{red_pain:.2f}")
+print(f"Needed liters of red paint:{red_pain:.2f}")
