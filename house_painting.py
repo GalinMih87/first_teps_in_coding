@@ -6,9 +6,9 @@ h = float(input())
 side_wall = x * y
 window = 1.5 * 1.5
 side = 2 * side_wall -2 * window
-zadna_strana = x * x
+back_side = x * x
 vhod = 1.2 * 2
-predna_zadna = 2 * zadna_strana - vhod
+predna_zadna = 2 * back_side - vhod
 
 total_osnova = side + predna_zadna
 green_pain = total_osnova / 3.4
